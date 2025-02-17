@@ -1,5 +1,3 @@
-
-
 const fetchData = async () => {
     try {
         const ghibliName = document.getElementById('ghibliName').value.toLowerCase();
@@ -11,8 +9,6 @@ const fetchData = async () => {
             url += `?title=${encodeURI(ghibliName)}`;
         }
 
-     
-        
         const response = await fetch('https://ghibliapi.vercel.app/films/');
         const films = await response.json()
 
