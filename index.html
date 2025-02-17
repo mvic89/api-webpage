@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Ajax assignment</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/input.css">
+    <script src="scripts/scripts.js" defer></script>
+    <!-- <script src="scripts/jquery-3.7.1.min.js"></script> -->
+</head>
+<body>
+    <header class="header">
+            <img src="images/studio-ghibli.png" alt="">
+    </header>
+    <!-- <main>
+        <h2>Ghibli films</h2>
+        <div class="ghibli-fact"></div>
+    </main> 
+     -->
+    <main class="main">
+        <div class="main-container">
+            <div class="input-div">
+                <input type="text" name="" id="ghibliName" placeholder="Enter your favorite Ghibli movie">
+                <button onclick="fetchData()">click</button>
+            </div>
+            <div class="image-div">
+                <img class="film-poster" src="" alt="Ghibli image" id="ghibliImage" style="display: none">
+                <div id="filmTitle"></div>
+                <div id="originalTitle"></div>
+                <div id="releaseDate"></div>
+                <div id="descriptionInfo"></div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
